@@ -1,5 +1,6 @@
-[![.github/workflows/coverage.yml](https://github.com/idoburstein/Automatic-Differentiation/blob/main/.github/workflows/coverage.yml/badge.svg)](https://github.com/idoburstein/Automatic-Differentiation/blob/main/.github/workflows/coverage.yml)
-[![.github/workflows/tests.yml](https://github.com/idoburstein/Automatic-Differentiation/blob/main/.github/workflows/tests.yml/badge.svg)](https://github.com/idoburstein/Automatic-Differentiation/blob/main/.github/workflows/tests.yml)
+[![Coverage Status](https://github.com/idoburstein/Automatic-Differentiation/actions/workflows/coverage.yml/badge.svg)](https://github.com/idoburstein/Automatic-Differentiation/actions/workflows/coverage.yml)
+[![Tests Status](https://github.com/idoburstein/Automatic-Differentiation/actions/workflows/tests.yml/badge.svg)](https://github.com/idoburstein/Automatic-Differentiation/actions/workflows/tests.yml)
+
 # Automatic-Differentiation
 This is an Automatic-Differentiation library for Python.
 
