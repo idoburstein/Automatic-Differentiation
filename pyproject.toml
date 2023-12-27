@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "autodiffpypi"
 version = "0.0.1"
 authors = [
-  { name="Ido Burstein", email="idoburstein@college.harvard.edu" },
+  { name="Ido Burstein", email="idoburstein@college.harvard.edu" }
   { name="Sylvia Cruz-Albrecht", email="sylvia_cruzalbrecht@college.harvard.edu" },
   { name="Ty Geri", email="tygeri@college.harvard.edu" },
   { name="Dante Lacuadra", email="dlacuadra@college.harvard.edu" },
@@ -22,4 +22,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Github repo" = "https://code.harvard.edu/CS107"
+"Github repo" = "https://github.com/idoburstein/Automatic-Differentiation"

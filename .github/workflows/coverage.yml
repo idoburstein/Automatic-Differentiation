@@ -21,7 +21,9 @@ jobs:
           echo "VIRTUAL ENV:" $VIRTUAL_ENV
           pip install -r requirements.txt
       - name: Run Test Suite
-        run: python3 -m pytest --cov=src --cov-fail-under=90
+        run: |
+          source autodiff_venv/bin/activate
+          python3 -m pytest --cov=src --cov-fail-under=90
   build-and-deploy:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
